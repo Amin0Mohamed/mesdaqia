@@ -1,0 +1,26 @@
+
+.pull-left{
+	float: right !important;
+}
+
+.pull-right{
+	float: left !important;
+}
+#dtHorizontalExample button ,#dtHorizontalExample input[type="submit"]{
+	width: 60px;
+	height: 40px;
+	margin-bottom: 10px;
+	display: block;;
+}
+#dtHorizontalExample img{
+	width: 100px;
+	height: 100px;
+}
+.add_btn{
+	margin-bottom: 20px;
+	width: 150px;
+	font-size: 18px;
+}
+.tr_header th {
+	width: 50px
+}

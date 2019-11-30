@@ -1,0 +1,577 @@
+.mazaP{
+    color: #f48639;
+}
+hr{
+    border-top: 1px solid #060211;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container::before{
+    display: table;
+    content: "";
+}
+.container::after{
+    clear: both;
+}
+
+.sales .sr_items h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Changa', sans-serif;
+}
+.sales .sr_items .input-group {
+    margin-right: 10%;
+}
+.sales .sr_items .input-group .sel{
+    width: 20%;
+    padding: 5px;
+/*    background-color: rgb(177, 174, 174);*/
+    border: 1px solid #ccc;
+    color: rgb(82, 80, 80);
+    outline: none;
+
+}
+.sales .sr_items .input-group .sel:hover{
+    background-color: rgba(32,33,36,0.039);
+}
+.sales .sr_items .input-group .bt_sr{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #000;
+}
+.sales .sr_items .input-group .bt_sr i{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.sales .sr_items .input-group .bt_sr i:hover{
+    color: #fd5f00;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+/* ----------------------- */
+.count {
+    font-family: Arial;
+    padding: 25px;
+    text-align: center;
+    color: #000;
+  }
+.product .r{
+    width: 80%;
+    margin: auto;
+
+}
+.product .r label{
+    color: #ff9000;
+    margin-left: 20px;
+}
+
+
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+  /* Column Grids */
+  /*-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+  /* .counter{
+      margin-left: 20px;
+      padding: 20px;
+  } */
+  .count-title {
+       font-size: 40px;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+}
+  .count-text {
+    font-size: 13px;
+    font-weight: normal;
+     margin-top: 10px;
+     margin-bottom: 0;
+    text-align: center;
+}
+.counter{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  .counter h2{
+      color: #f48639;
+      font-family: 'Changa', sans-serif;
+  }
+  .counter p{
+      font-weight: bold;
+      font-family: 'Changa', sans-serif;
+      font-size: 18px;
+  }
+  .counter i {
+      color: #fff;
+      background: #2d3561;
+      padding: 25px 0px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 1px solid #2d3561;
+      vertical-align: middle;
+      cursor: pointer;
+      transition: .2s ease-in-out;
+  }
+  .counter i:hover{
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #fff;
+    color: #f48639;
+
+  }
+  /* ------------------------------------ */
+  /* .items{
+      background-color: #eee;
+  } */
+.items  .container{
+    display: table; /* Make the container element behave like a table */
+
+}
+.items  .cl{
+
+    display: table-cell;
+    /* border-bottom:  1px solid rgb(173, 169, 169);
+    border-right:  1px solid rgb(173, 169, 169); */
+    margin-bottom:20px;
+    border-radius: 4px;;
+}
+.items .card{
+    border-color: #2d3561;
+    margin-top: 15px;
+    box-shadow: 1px 1px 10px #bbb;
+    transition: all 0.2s ease-in-out;
+}
+.card .product{
+    padding: 7px;
+}
+.items .card p , .items .card h5{
+    font-size: 16px;
+}
+.items .card h5{
+    font-size: 16px;
+}
+  .items .item_hd{
+      text-align: center;
+      padding-bottom: 0;
+      background: #2d3561;
+      color: #fff;
+      font-size: 16px;
+  }
+  .items .sell{
+    width: 55px;
+    height: 50px;
+    background: #2d3561;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    /* line-height: 60px !important; */
+    position: absolute;
+    left: 0;
+    top: 50px;
+    border-bottom-right-radius: 75%;
+    opacity: 1;
+  }
+
+  .items .item_hd p{
+      margin-top: 10px;
+      font-size: 16px;
+  }
+
+  .items img , .model img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    display: block;
+  }
+  .items .heart , .model .heart{
+    float: left;
+    margin: 0;
+    cursor: pointer;
+  }
+  .items .fa-heart , .model .fa-heart{
+      color: rgb(200, 10, 10);
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  .items h5 , .model h5{
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+  }
+  .items h5 span , .model h5 span{
+      color: red;
+  }
+.product .mg-up{
+    margin: 15px auto 0 ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+  .items .btn_s ,.model .btn_s
+  {
+      display: block;
+      padding: 6px;
+      margin: 5px auto 3px auto;
+      font-family: 'Changa', sans-serif;
+      background-color: #f48639;
+      font-size: 15px;
+         border-color: #f48699;
+        color: #000;
+
+  }
+  .items .btn_s:hover , .model .btn_s:hover{
+      cursor: pointer;
+      background-color: #2d3561;
+      border-color: #2d3561;
+      color: #fff;
+      transition: .3s ease-in-out
+  }
+  .items .btn_show , .model .btn_show{
+      width: 50%;
+      margin-right: 25%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #f48639;
+      border: none;
+      outline: none;
+      font-family: 'Changa', sans-serif;
+  }
+  .items .btn_show:hover , .model .btn_show:hover{
+      background-color: #2d3561;
+      cursor: pointer;
+      transition: .3s ease-out;
+  }
+  .items .sz .ht , .model .sz .ht{
+      margin-bottom: 20px;;
+  }
+ /* .items .ht::before , .items h5::before
+  {
+    content: "\2724";
+    color: #fd5f00;
+    font-weight: bold;
+  } */
+  .items .footer , .model .footer{
+      /* background-color: #eee; */
+      padding-bottom: 5px;
+      padding-top: 0;
+      text-align: center;
+  }
+
+  .items hr , .model hr{
+    border-top:  1px solid rgb(182, 176, 176)
+}
+  /* ----------------------- */
+  /* .model{
+      background-color: #eee
+  } */
+
+.card-body .container{
+    padding: 20px;
+}
+.card-body .container input::placeholder{
+    color: #f50;
+}
+.model .container{
+    display: table; /* Make the container element behave like a table */
+
+ }
+.model  .cl{
+    display: table-cell;
+    /* border-bottom: 2px solid #060211;
+    border-top: 2px solid #060211; */
+    /* border-bottom:  1px solid rgb(173, 169, 169);
+    border-right:  1px solid rgb(173, 169, 169); */
+    margin-bottom:20px;
+    border-radius: 4px;
+}
+.model .card{
+    margin-top: 10px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px #eee;
+}
+.model .card:hover , .items .card:hover{
+    box-shadow: 7px 7px 25px #bbb;
+}
+.model .card p , .model .card h5{
+    /*margin-right: 10px;*/
+}
+.model h5{
+    font-size: 17px;
+}
+.model p{
+  font-family: 'Changa', sans-serif;
+  font-size: 16px;
+}
+.btn_s a{
+    color: #fff;
+    text-decoration: none;
+}
+/* ---------------------------- */
+
+/*Extra small devices (portrait phones, less than 576px)
+ mobile & tablet */
+ @media (max-width: 575px) {
+    .sales .sr_items h3{
+        font-size: 17px;
+    }
+    .sales .sr_items .input-group {
+        margin-right: 5%;
+        font-size: 12px;
+    }
+    .sales .sr_items .input-group .sel{
+        width: 27%;
+        padding: 1px;
+    }
+    .sales .sr_items .input-group .bt_sr{
+        padding: 1px 10px;
+    }
+    .count-title {
+        font-size: 25px;
+    }
+    .count-text {
+        font-size: 12px;
+    }
+    .counter p{
+        font-size: 18px;
+    }
+    .counter i {
+        padding: 15px;
+    }
+
+    .items .item_hd p{
+        margin-bottom: 2px;
+        padding-bottom: 10px;
+    }
+    .items .sell{
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        position: absolute;
+        top: 46px;
+        left: 0;;
+    }
+    .items img , .model img{
+        height: 120px;
+    }
+    .items p , .model p{
+        font-size: 15px;
+      }
+      .items .sz .ht , .model .sz .ht{
+        height: 70px;
+        margin-bottom: 15px;;
+    }
+      .items h5 , .model h5{
+          font-size: 16px;
+      }
+      .items .btn_s , .model .btn_s{
+          padding: 7px;
+          font-size: 15px;
+          margin-left: 20px;
+          /* position: absolute;
+          bottom: 1px; */
+      }
+      .items .btn_show , .model .btn_show{
+          font-size: 15px;
+
+      }
+  }
+/* ------------------------- */
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .sales .sr_items h3{
+        font-size: 19px;
+    }
+    .sales .sr_items .input-group {
+        margin-right: 5%;
+        font-size: 15px;
+    }
+    .sales .sr_items .input-group .sel{
+        width: 27%;
+        padding: 2px;
+    }
+    .sales .sr_items .input-group .bt_sr{
+        padding: 2px 10px;
+    }
+
+    .count-title {
+        font-size: 28px;
+    }
+    .count-text {
+        font-size: 15px;
+    }
+    .counter p{
+        font-size: 19px;
+    }
+    .counter i {
+        padding: 20px;
+    }
+    .items .item_hd p{
+        font-size: 14px;
+        font-weight: normal
+    }
+    .items .sell{
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        position: absolute;
+        top: 47px;
+        left: 0;;
+    }
+    .items img , .model img{
+        height: 130px;
+    }
+    .items p , .model p{
+        font-size: 15px;
+      }
+      .items .sz .ht , .model .sz .ht{
+        height: 60px;
+        margin-bottom: 15px;;
+    }
+      .items h5 , .model h5{
+          font-size: 14px;
+      }
+      .items .btn_s , .model .btn_s{
+          padding: 6px;
+          font-size: 13px;
+          /* position: absolute;
+          bottom: 1px; */
+      }
+      .items .btn_show , .model .btn_show{
+          width: 60%;
+          margin-right: 20%;
+          font-size: 14px;
+      }
+}
+/*----------------------------------------------------------------*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .sales .sr_items h3{
+        font-size: 22px;
+    }
+    .sales .sr_items .input-group {
+        margin-right: 5%;
+        font-size: 15px;
+    }
+    .sales .sr_items .input-group .sel{
+        width: 27%;
+        padding: 5px;
+    }
+    .sales .sr_items .input-group .bt_sr{
+        padding: 5px 10px;
+    }
+    .count-title {
+        font-size: 32px;
+    }
+    .count-text {
+        font-size: 18px;
+    }
+    .counter p{
+        font-size: 20px;
+    }
+    .counter i {
+        padding: 25px;
+    }
+    .items .item_hd p{
+        padding-bottom: 2px;
+    }
+
+    .items .sell{
+        width: 55px;
+        height: 55px;;
+        font-size: 15px;
+        position: absolute;
+        top: 48px;
+        left: 0;;
+    }
+    .items img , .model img{
+        height: 130px;
+    }
+    .items p , .model p{
+        font-size: 15px;
+      }
+      .items .item_hd p{
+          font-size: 15px;
+      }
+      .items h5 , .model h5{
+          font-size: 17px;
+      }
+      .items .btn_s , .model .btn_s{
+          padding: 5px;
+          /* padding-bottom: 0; */
+          font-size: 15px;
+      }
+      .items .btn_show , .model .btn_show{
+          width: 60%;
+          margin-right: 20%;
+          font-size: 14px;
+      }
+ }
+ /* ---------------------------- */
+ /* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sales .sr_items h3{
+        font-size: 22px;
+    }
+    .sales .sr_items .input-group {
+        margin-right: 5%;
+        font-size: 15px;
+    }
+    .sales .sr_items .input-group .sel{
+        width: 27%;
+        padding: 5px;
+    }
+    .sales .sr_items .input-group .bt_sr{
+        padding: 5px 10px;
+    }
+    .count-title {
+        font-size: 32px;
+    }
+    .count-text {
+        font-size: 18px;
+    }
+    .counter p{
+        font-size: 20px;
+    }
+    .counter i {
+        padding: 25px;
+    }
+    .items .sell{
+        width: 55px;
+        height: 55px;
+        font-size: 14px;
+        position: absolute;
+        top: 46px;
+        left: 0;;
+    }
+    .items img , .model img{
+        height: 130px;
+    }
+    .items p , .model p{
+        font-size: 16px;
+      }
+      .items .item_hd p{
+          font-size: 13px;
+      }
+      .items h5 , .model h5{
+          font-size: 18px;
+      }
+      .items .btn_s , .model .btn_s{
+          padding: 5px;
+          font-size: 15px;
+          /* position: absolute;
+          bottom: 1px; */
+      }
+      .items .btn_show , .model .btn_show{
+          width: 60%;
+          margin-right: 20%;
+          font-size: 14px;
+      }
+ }

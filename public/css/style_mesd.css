@@ -1,0 +1,203 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Changa', sans-serif;
+}
+.overlay{
+    background: rgba(56,61,65,.6);
+    width: 100%;
+    height: 100%;
+
+}
+.ln{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 0px;
+    height: 3px;
+    width: 100px;
+    background-color: #f48639;
+    
+}
+.container::before{
+    display: table;
+    content: "";
+}
+/* ------------------------------------------------------------- */
+.s1_head{
+    padding-top: 20px;
+}
+.s1_head h3 {
+    margin-bottom: 20px;
+}
+.s1_content {
+    /* padding-top: 30px; */
+    background-color: #eee;
+    background-image: url('../img/bk5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f1f1f1;
+    
+    /* margin-bottom: 100px; */
+}
+.s1_content .overlay{
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #2d356150;
+}
+.s1_content .hz-ln{
+    position: relative;
+    margin-top: 15px;
+    
+}
+.s1_content .hz-ln span{
+    background-color: #2d3561;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+.s1_content .s1_list{
+    margin-top: 20px;
+}
+.s1_content .s1_list li {
+    margin-bottom: 15px;
+}
+.s1_content .btn-colr , .modal .btn-colr{
+    font-family: 'Changa', sans-serif;
+    background-color: #f48639;
+    color: #f1f1f1;
+    border-color: #f48639;
+    font-weight: bold;
+}
+.s1_content .btn-colr:hover , .modal .btn-colr:hover{
+    background-color: #2d3561;
+    border-color: #2d3561;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+.s1_content a{
+    color: #f48639;
+    font-weight: bold;
+}
+.s1_content a:hover{
+    color: #f1f1f1;
+    transition: .3s ease-in-out;
+
+}
+
+/* ================================== */
+.modal .cl{
+    background: #f48639;
+    height: 5px;
+    margin-bottom: 10px
+}
+.modal h5{
+    background-color: #f48639;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.modal .form-group input[type="text"] , .modal .form-group input[type="password"], .modal .form-group input[type="email"], .modal .form-group input[type="tel"]{
+    padding: 7px;
+    /* border-radius: 8px; */
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2d3561;
+    text-indent: 10px;
+    font-family: 'Changa', sans-serif;
+}
+.modal .form-group input[type="submit"]{
+    margin-right: 40%;
+    width: 20%;
+}
+.modal .hz-ln{
+    position: relative;
+    margin-top: 30px;
+}
+.modal .hz-ln::before, .s1_content .hz-ln::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    background: #2d3561;
+    right: 0;
+    top: 50%
+}
+.modal .hz-ln::after , .s1_content .hz-ln::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    background: #2d3561;
+    left: 0;
+    top: 50%
+}
+.s1_content .hz-ln::after ,.s1_content .hz-ln::before{
+    width: 200px;
+}
+.modal .work{
+    margin-bottom: 5px;
+}
+.modal .btn-colr{
+    font-weight: normal;
+    background-color: transparent;
+    color: #f48639;
+}
+.modal a{
+    color: #aaa;
+}
+.modal a:hover{
+    color: #2d3561;
+}
+#mesdaqia {
+    color: #2d3561;
+}
+/* ----------------------------------- */
+#message {
+    display:inline-block;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 2px;
+  }
+  
+  #message span {
+    padding: 5px ;
+    font-size: 12px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+    left: -10px;
+  }
+  
+  .valid:before {
+    position: relative;
+    font-family: FontAwesome;
+    content: "\f00c";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+    position: relative;
+    left: -10px;
+  }
+  
+  .invalid:before {
+    
+    content: "\f00d";
+    font-family: FontAwesome;
+  }

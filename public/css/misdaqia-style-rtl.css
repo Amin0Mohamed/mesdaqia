@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:500');
+@import url('https://fonts.googleapis.com/css?family=Cairo:600');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+body{
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+.flo-right{
+    float: right !important;
+}
+.flo-left{
+    float: left !important;
+}
+.navbar{
+    direction: rtl;
+}
+.row{
+    direction: rtl;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    direction: ltr;
+    float: right;
+}
+#top{
+    text-align: left;
+}
+.email{
+    direction: rtl;
+}
+.location{
+    margin-right: 7px;
+    margin-left: 0;
+}
+.rtl{
+    direction: rtl;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+     letter-spacing: 0px; 
+}
+.mg-20,.mgl-520,.mgl-200 {
+    font-size: 20px;
+}
+.our-services p {
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+.location{
+    letter-spacing: 0px;
+}
+.dropdown-menu{
+    margin-left: 225px;
+}
+.small-head .left{
+    float: right;
+    margin-right: -30px;
+}
+.small-head .left .infolink li .domain,.fas,.qwk-link{
+    margin-right: 7px;
+}
+.small-head .left .infolink li .fas{
+}
+.small-head .left .infolink li{
+    color: #0099ff;
+    
+}
+.small-head .right{
+    float: left;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #333332;
+    margin-right: 5px;
+}
+.navbar-inverse .share{
+    margin-right: 5px;
+    float: left;
+    line-height: 25px;
+    margin-top: 22px;
+}
+
+.ih-item.circle.effect16 .info ul{
+    margin-right: -35px;
+}
+
+.navbar .container .navbar-header{
+    float: right;
+}
+.navbar-right {
+     float: none!important; 
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  line-height: 70px;
+    font-size: 35px;
+    color: #000;
+    font-weight: bolder;  
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0;
+}
+.navbar-nav>li{
+    float: right;
+}
+
+
+@media (max-width: 576px) { 
+    .navbar-nav>li{
+        float: none;
+        margin-left: 5px;
+    }
+    .small-head .right{
+        float: none;
+    }
+}
+/* start All Responsive for navbar */
+
+/* devices (portrait phones, iphone 5) */
+@media (max-width: 320.98px){
+/*
+    .navbar-inverse .share {
+        margin-left: 100px;
+    }
+*/
+}
+/* devices (portrait phones, iphone 6/7/8 and galaxy s5) */
+@media (min-width: 321px) and (max-width: 375.98px){
+/*
+    .navbar-inverse .share {
+        margin-left: 127px;
+    }
+*/
+}
+/* devices (portrait phones, iphone 6/7/8 plus and pixel 2) */
+@media (min-width: 376px) and (max-width: 414.98px){
+/*
+    .navbar-inverse .share {
+        margin-left: 145px;
+    }
+*/
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 415px) and (max-width: 575.98px) { 
+/*
+    .navbar-inverse .share {
+        margin-left: 150px;
+    }
+*/
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media(max-width: 767.98px) { 
+    .navbar-inverse .share {
+        float: none;
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+
+.small-head a:hover{
+	color:#fd5f00;
+}
+/* start All Responsive for navbar */
+
+@media (max-width: 767px){ /* Extra small screen */
+   .navbar .container .navbar-small-head {
+        float: none;
+    }
+    .navbar-inverse .navbar-toggle {
+        float: left;
+        margin-left: 20px;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+       float: right;
+        line-height: 45px;
+    }
+    .navbar .container .navbar-header{
+        float: none;
+    }
+    .navbar-right {
+        padding: 0;
+    }
+    .navbar-nav {
+        margin: 25px 0px;
+    }
+    .navbar-inverse .share {
+         margin-left: 0px; 
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+        border: none;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+         border: none;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: #f48639;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #f48639;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { /* small screen */
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+        font-size: 28px;
+        
+    }
+    .navbar-inverse .navbar-nav>li>a{
+        font-size: 13px;
+    }
+    .nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        margin-right: 0px;
+    }
+    .navbar-inverse .share{
+        padding: 5px 8px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) { /* medium screen */
+    .navbar-inverse .share {
+        margin-right: 0;
+        float: left;
+        line-height: 25px;
+        margin-top: 22px;
+    }
+}
+@media (min-width: 1200px) { /* large screen */
+    
+    
+}
+/* End All Responsive for navbar */
+

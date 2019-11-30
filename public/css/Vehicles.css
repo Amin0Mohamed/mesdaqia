@@ -1,0 +1,144 @@
+.mazad h6{
+    padding: 5px;
+    background-color: #f48639;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+.mazad label{
+    margin-bottom: 0;
+}
+.mazad .block_type{
+    box-shadow: 5px 5px 10px 1px #eee;
+}
+.mazad input[type='checkbox']{
+    margin-right: 10px;
+}
+.mazad input[type='date']{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2d3561;
+    margin-right: 10px;
+    width: 100%;
+    text-align: center;
+}
+.mazad input[type='text']{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2d3561;
+    padding: 5px;
+    margin-right: 10px;
+    text-indent: 5px;
+    width: 60%;
+}
+.tablinks{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f48639;
+    font-family: 'Changa', sans-serif;
+    color: #f48639;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.tablinks:hover , .tablinks.active{
+    background-color: #f48639;
+    border-color: #f48639;
+    color: #2d3561;
+    font-weight: bold
+}
+.meue_side{
+    font-size:30px;
+}
+.meue_side:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+   color: #f48639;
+   
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2d3561;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav button:after {
+    content: "\f053";
+    font-family: FontAwesome;
+    color: #333;
+    font-size: 13px;
+    float: right;
+    margin-right: 5px;
+}
+.sidenav button:focus::after {
+    content: "\f078";
+    font-family: FontAwesome;
+}
+.sidenav .btn_s:hover{
+    background-color: #f48639;
+    color: #2d3561;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f00;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;;
+  font-size: 36px;
+}
+  .sidenav .card{
+      margin-bottom: 20px;
+      box-shadow: 0;
+      border-color: #2d3561;
+      width: 100%;
+  }
+.sidenav label{
+    color: #2d3561;
+    margin-bottom: 0;
+}
+.sidenav input[type='text']{
+    margin-bottom: 8px;
+    width: 100%;
+}
+.sidenav input[type='number']{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #2d3561;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-indent: 8px;
+}
+.sidenav select{
+    width: 100%;
+    margin-bottom: 8px;
+    font-family: 'Changa', sans-serif;
+}
+.sidenav #dis_card ,.sidenav #dis_card_veh , .sidenav #dis_input ,.sidenav #dis_input_veh, .sidenav #dis_input2, .sidenav #dis_input2_veh, .sidenav #dis_input3 ,#dis_input3_veh, .sidenav #dis_inpu4 ,#dis_input4_veh, .sidenav #dis_input5 , #dis_input5_veh , #dis_input6_veh
+,.sidenav #dis_card_build , .sidenav #dis_input_build ,  .sidenav #dis_input2_build ,  .sidenav #dis_input3_build ,  .sidenav #dis_input4_build , .sidenav #dis_input5_build ,  .sidenav #dis_input6_build , .sidenav #dis_input7_build
+,.sidenav #dis_card_jewl  , .sidenav #dis_input_jewl  ,  .sidenav #dis_input2_jewl  ,  .sidenav #dis_input3_jewl  ,  .sidenav #dis_input4_jewl  , .sidenav #dis_input5_jewl 
+,.sidenav #dis_card_high  , .sidenav #dis_input_high  ,  .sidenav #dis_input2_high  ,  .sidenav #dis_input3_high  ,  .sidenav #dis_input4_high 
+{
+    display: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
